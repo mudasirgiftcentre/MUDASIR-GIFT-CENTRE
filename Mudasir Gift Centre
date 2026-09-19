@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudasir Gift Center - Toy Store in Multan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #ff4757;
+            --secondary: #2ed573;
+            --dark: #2f3542;
+            --light: #f1f2f6;
+            --accent: #ffa502;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .rating {
+            background: rgba(255, 255, 255, 0.2);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .about-text {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #57606f;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 1.5rem;
+        }
+        .product-item {
+            background: #ffeaa7;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            color: #d63031;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .product-item:hover {
+            transform: translateY(-5px);
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .info-box {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .info-box i {
+            font-size: 1.8rem;
+            color: var(--primary);
+        }
+        .info-box h3 {
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #26af5f;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--dark);
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎁 Mudasir Gift Center</h1>
+        <p>The Ultimate Toy Destination in Multan</p>
+        <div class="rating">
+            <i class="fas fa-star" style="color: #ffd700;"></i> 4.2 / 5 (Google Reviews)
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- About & Products Section -->
+        <div class="card">
+            <h2>About Our Store</h2>
+            <p class="about-text" style="margin-top: 1rem;">
+                "All kind of toys battery operated cars jeeps bike tricycle bicycle rocking horse baby bed baby cot baby prime and much more items"
+            </p>
+            
+            <h3 style="margin-top: 2rem; margin-bottom: 1rem;">🌟 What We Offer:</h3>
+            <div class="products-grid">
+                <div class="product-item">🚗 Battery Operated Cars & Jeeps</div>
+                <div class="product-item">🏍️ Battery Bikes</div>
+                <div class="product-item">🚲 Tricycles & Bicycles</div>
+                <div class="product-item">🐴 Rocking Horses</div>
+                <div class="product-item">🛏️ Baby Beds & Cots</div>
+                <div class="product-item">🍼 Baby Prrams (Primes)</div>
+                <div class="product-item">🧸 All Kinds of Toys</div>
+            </div>
+        </div>
+
+        <!-- Contact & Location Info -->
+        <div class="card">
+            <h2>Visit Us / Contact</h2>
+            <div class="info-grid" style="margin-top: 1.5rem;">
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Rasheed Abad Khushal Colony, Multan, 60000</p>
+                        <a href="https://maps.google.com/?q=Rasheed+Abad+Khushal+Colony+Multan" target="_blank" class="btn" style="font-size: 0.85rem; padding: 6px 15px;">Get Directions</a>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h3>Phone / Call Us</h3>
+                        <p>0333 7646364</p>
+                        <a href="tel:03337646364" class="btn" style="font-size: 0.85rem; padding: 6px 15px; background: var(--primary);">Call Now</a>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Hours</h3>
+                        <p>Opens Daily at 11:00 AM</p>
+                        <small style="color: #e84118; font-weight: 600;">Closed / Check timing updates</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mudasir Gift Center, Multan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
